@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 class Header extends React.Component {
 
     render() {
@@ -36,9 +34,8 @@ class Header extends React.Component {
                             </li>
                         </ul>
                     </div>
-
-                    <button type="" onClick={this.props.getUSD} className="btn btn-warning"> USD &#36; / EUR &#8364;</button>
-
+                    <button type="" id="USA_EUR" onClick={this.props.getButtonRate} className="btn btn-warning">
+                    </button>
                 </div>
             </header>
     )
