@@ -1,0 +1,30 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+button:hover {
+	transition: 0.5;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+	background: #F7F7F7;
+}
+
+input {
+	border-bottom: 1px solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+#rates {
+	margin: 0px;
+	padding: 8px;
+	background: #EDEDED;
+	border-radius: 4%;
+}
+
+footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
